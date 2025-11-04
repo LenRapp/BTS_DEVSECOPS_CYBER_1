@@ -3,7 +3,7 @@ name: Trivy Scan
 
 on:
   push:
-    branches: [main, fix/security-Lenny-Rap]
+    branches: [main, fix-security-Lenny-Rap]
 
 jobs:
   trivy-scan:
